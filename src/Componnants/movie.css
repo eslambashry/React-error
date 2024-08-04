@@ -1,0 +1,50 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Background color for the container */
+    /* height: 100%; */
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden; /* Ensures content fits inside container */
+    margin-bottom: 20px;
+    height: 100%;
+
+
+  }
+  
+  .poster-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .poster {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: 1px solid #ddd; /* Optional: Add a border below the image */
+  }
+  
+  .mocontainer {
+    padding: 20px;
+    
+    margin: 2rem;
+  }
+  
+
+  span{
+    font-size: larger;
+    font-weight: 700;
+
+  }
+
+  .row{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
